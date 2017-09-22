@@ -21,4 +21,11 @@
 		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>WebContent/gander-canada-4.jpg</name>
+			<type>1</type>
+			<location>C:/Users/robert.keeping/Desktop/gander-canada-4.jpg</location>
+		</link>
+	</linkedResources>
 </projectDescription>

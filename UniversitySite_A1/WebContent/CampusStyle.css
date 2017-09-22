@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+body {
+    background-color: silver;
+}
+img {
+    float: left;
+}
+#sidebar{
+	float: right;
+	width: 250px;
+	border-style: solid;
+    border-width: 2px;
+    border-color:black;
+	
+}
+#easterncampus{
+	float: left;
+	width: 750px;
+	
+}
+#campusmap{
+	float: right;
+}
+}
+#headerblock {
+    color: Blue;
+    background-color: silver;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color:black;
+}
+#campustab{color:black;
+background-color: silver;
+border-style:solid;
+border-color:black;
+}
+
+p {
+    font-family: verdana;
+    font-size: small;
+}
+html {
+    border-style: solid;
+    border-width: 1px;
+}
+footer{
+	background-color:silver;
+border-style:solid;
+border-color:black;
+}
+#Eastercampus{
+	width:200px;
+}
+#Centralcampus{
+	width:200px;
+}
+#Westerncampus{
+	width:200px;
+}
+
