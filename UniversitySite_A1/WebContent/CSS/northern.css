@@ -12,6 +12,7 @@ body {
 }
 
 #sidebar {	
+		font-size: 110%;
 		width: 340px;
 		padding: 20px;
 		margin: 0px 50px 30px 30px;
@@ -46,7 +47,7 @@ body {
 		padding: 20px 20px 20px 110px;
 		margin: 110px 470px 40px 150px;
 		border: 2px dashed #A04AFF;
-		background-image: url(images/logo.jpg);
+		background-image: url(../Images/logo.jpg);
 		background-repeat: no-repeat;
 		background-position: top left;
 }
