@@ -1,0 +1,1 @@
+The Course page is stored in this folder.
