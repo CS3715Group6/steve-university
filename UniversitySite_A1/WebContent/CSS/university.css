@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body{
+	font-family: Geneva, Arial, sans-serif;
+	background-color:gray;
+	margin: 40px;
+	line-height: 1.5em;
+}
+
+footer{
+	font-size:small;
+	text-align: center;
+}
+
+#campusSelect {
+	float: right;
+	margin: 30px;
+	border-style: solid;
+	padding: 20px;
+}
+
+.campus {
+	border-style: ridge;
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+#title {
+	background-color: darkgrey;
+	margin-bottom: 100px;
+}
+
+#title img {
+	float: left;
+	padding-right: 100px;
+}
+
+#title h1 {
+	font-family: Verdana, Geneva, Arial, sans-serif;
+	position: relative;
+	padding: 54px;
+}
+
+#content {
+	margin: 50px;
+}
+
+#about blockquote{
+	background-color: silver;
+	padding: 10px;
+	overflow: hidden;
+	line-height: 2em;
+}
