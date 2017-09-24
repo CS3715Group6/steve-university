@@ -40,7 +40,7 @@ body {
 #enrollment {
 		background-color: #ffcfa9;
 		padding: 20px 20px 20px 90px;
-		margin: 20px 480px 40px 140px;
+		margin: 20px 560px 40px 140px;
 		border-radius: 15px;	
 		background-image: url(../Images/logo_orange.jpg);
 		background-repeat: no-repeat;
@@ -50,18 +50,17 @@ body {
 #demographics {
 		background-color: #EEDEFF;
 		padding: 20px 20px 20px 90px;
-		margin: 20px 480px 40px 0px;
+		margin: 20px 560px 40px 0px;
 		border-radius: 15px;	
 		background-image: url(../Images/logo.jpg);
 		background-repeat: no-repeat;
 		background-position: top left;	
-
 }
 
 #did_you_know {
 		background-color: #ffcfa9;
 		padding: 20px 20px 20px 90px;
-		margin: 20px 480px 40px 140px;
+		margin: 20px 560px 40px 140px;
 		border-radius: 15px;	
 		background-image: url(../Images/logo_orange.jpg);
 		background-repeat: no-repeat;
