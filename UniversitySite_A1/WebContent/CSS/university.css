@@ -2,7 +2,7 @@
 
 body{
 	font-family: Geneva, Arial, sans-serif;
-	background-color:gray;
+	background-color:lightgrey;
 	margin: 40px;
 	line-height: 1.5em;
 }
@@ -24,7 +24,6 @@ footer{
 	text-align: center;
 	padding-top: 5px;
 }
-
 
 #title {
 	background-color: darkgrey;
@@ -51,4 +50,9 @@ footer{
 	padding: 10px;
 	overflow: hidden;
 	line-height: 2em;
+}
+
+.university {
+		font-style: italic;
+		font-weight: bold;
 }
