@@ -33,11 +33,6 @@ p {
     font-size: medium;
 }
 
-body {
-    border-style: solid ;
-    border-width: 0px;
-}
-
 #Eastercampus{
 	width:200px;
 	body 
@@ -49,13 +44,4 @@ body {
 
 #Westerncampus{
 	width:200px;
-}
-
-#aboutpic{
-	float: right;
-	padding: 20px;
-}
-
-#universityname{
-	padding-left: 20px;
 }
