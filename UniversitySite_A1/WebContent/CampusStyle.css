@@ -39,6 +39,7 @@ body {
     border-width: 1px;
     border-color:black;
     height: 200px;
+    background-image:url("file:///C:/Users/robert.keeping/Desktop/campusmap.JPG");
 }
 #campustab{
 	color:black;
