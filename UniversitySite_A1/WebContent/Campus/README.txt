@@ -1,1 +1,0 @@
-The Campus pages are stored in this folder.
