@@ -1,0 +1,102 @@
+@charset "ISO-8859-1";"
+body {
+    background-color: white;
+}
+
+img {
+    float: left;
+}
+
+#sidebar{
+	float: right;
+	width: 200px;
+	height: 300;
+	border-style: solid;
+    border-width: 1px;
+    border-color:black;
+    padding: 40px;	
+}
+
+#headerblockimg{
+	float: right;
+	padding-top: 20px;
+	padding-right: 10px;
+}
+
+#easterncampus{
+	padding-left: 20px;
+	padding-top: 0px;
+	float: left;
+	width: 70%;
+	background-image: url("file:///C:/Users/robert.keeping/Desktop/books.JPG");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 50%;
+	background-repeat: no-repeat;
+}
+
+#campusmap{
+	float: right;
+}
+
+#headerblock {
+    color: Black;
+    background-color: ;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color:black;
+    height: 200px;
+}
+
+#campustab{
+	color:black;
+	background-color: silver;
+	border-style:solid;
+	border-color:black;
+}
+
+p {
+    font-family: verdana;
+    font-size: medium;
+}
+
+body {
+    border-style: solid ;
+    border-width: 0px;
+}
+
+#footer{
+	padding: 10%;
+}
+
+#Eastercampus{
+	width:200px;
+	body 
+}
+
+#Centralcampus{
+	width:200px;
+}
+
+#Westerncampus{
+	width:200px;
+}
+
+#aboutpic{
+	float: right;
+	padding: 20px;
+}
+
+#universityname{
+	padding-left: 20px;
+}
+
+#sidebarbuffer{
+	padding: 20px;
+}
+
+html{
+	border-style:;
+	border-width:;
+}
