@@ -1,53 +1,230 @@
 @charset "UTF-8";
 
-body {
-	background-color: #b5a789;
-	font-family: Georgia, "Times New Roman", Times, serif;
-	margin: 50px;
+/*Mobile Phones in Portrait*/
+@media screen and (max-device-width : 481px) and (orientation : portrait) {
+	
+	body {
+		background-color: white;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 200%;
+		margin: 10px;
+	}
+	
+	header {
+		background-color: grey;
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+	
+	header h1 {
+		text-align: center;
+	}
+	
+	#contact {
+		float: right;
+	}
+	
+	#aside {
+		font-size: 200%;
+		display: block;
+		float:none;
+		background-color: lightgrey;
+		width:auto;
+		padding:10px 10px 10px 10px;
+		margin:10px 10px 10px 10px;	
+	}
+	
+	#aside li{
+		margin: 1em; 
+		padding: 0em;
+	}
+	
+	#aside h1{
+		text-align: center;
+	}
+	
+	#campus {
+		display:block;
+		float:none;
+		font-size: 200%;
+		line-height: 1em;
+	}
+	
+	footer{
+		background-color: grey;
+		clear:both;
+		text-align: center;
+		padding:20px;
+		margin-top:20px;
+	}
 }
 
-header {
-	background-color: #9d8a62;
-	padding: 20px;
-	margin-bottom: 20px;
+/*Mobile Phones in landscape. Normally, I would just have the page use the tablet css, 
+but since we are required to change the appearence our page for each device, 
+I've added this to keep the look consistent across mobile whether in portrait or landscape*/
+@media screen and (max-device-width : 1281px) and (orientation : landscape){
+	body {
+		background-color: white;
+		font-family: Georgia, "Times New Roman", Times, serif;
+		font-size: 120%;
+		margin: 10px;
+	}
+	
+	header {
+		background-color: grey;
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+	
+	header h1 {
+		text-align: center;
+	}
+	
+	#contact {
+		float: right;
+	}
+	
+	#aside {
+		font-size: 120%;
+		display: block;
+		float:none;
+		background-color: lightgrey;
+		width:auto;
+		padding:10px 10px 10px 10px;
+		margin:10px 10px 10px 10px;	
+	}
+	
+	#aside li{
+		margin: 1em; 
+		padding: 0em;
+	}
+	
+	#aside h1{
+		text-align: center;
+	}
+	
+	#campus {
+		display:block;
+		float:none;
+		font-size: 120%;
+		line-height: 1em;
+	}
+	
+	footer{
+		background-color: grey;
+		clear:both;
+		text-align: center;
+		padding:20px;
+		margin-top:20px;
+	}
 }
 
-header h1 {
-	text-align: center;
+/*Tablets*/
+@media screen and (min-device-width : 961px){
+	body {
+		background-color: #e6e6ff;
+		font-family: Times, Courier, Verdana, serif;
+		margin: 50px;
+	}
+	
+	header {
+		background-color: #b3b3ff;
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+	
+	header h1 {
+		text-align: center;
+	}
+	
+	#contact {
+		float: right;
+	}
+	
+	#aside {
+		display:block;
+		font-size: small;
+		float: left;
+		background-color: #ccccff;
+		width:20%;
+		padding:10px;
+		margin: 20px 20px 20px 0px;
+	}
+	
+	#aside li{
+		margin: 0em; 
+		padding: 0em;
+	}
+	
+	#aside h1{
+		text-align: center;
+	}
+	
+	#campus {
+		display: block;
+		line-height: 1.5em;
+	}
+	
+	footer{
+		background-color: #b3b3ff;
+		clear:both;
+		text-align: center;
+		padding:20px;
+		margin-top:20px;
+	}
 }
 
-#contact {
-	float: right;
-}
-
-#aside {
-	display:block;
-	font-size: small;
-	float: left;
-	background-color: #d8d0c0;
-	width:20%;
-	padding:10px;
-	margin: 20px 20px 20px 0px;
-}
-
-#aside li{
-	margin: 0em; 
-	padding: 0em;
-}
-
-#aside h1{
-	text-align: center;
-}
-
-#campus {
-	display: block;
-	line-height: 1.5em;
-}
-
-footer{
-	background-color: #9d8a62;
-	clear:both;
-	text-align: center;
-	padding:20px;
-	margin-top:20px;
+/*Desktop */
+@media screen and (min-device-width : 1281px){
+	body {
+		background-color: #b5a789;
+		font-family: Georgia, Palatino, Times, serif;
+		margin: 50px;
+	}
+	
+	header {
+		background-color: #9d8a62;
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+	
+	header h1 {
+		text-align: center;
+	}
+	
+	#contact {
+		float: right;
+	}
+	
+	#aside {
+		display:block;
+		font-size: small;
+		float: left;
+		background-color: #d8d0c0;
+		width:20%;
+		padding:10px;
+		margin: 20px 20px 20px 0px;
+	}
+	
+	#aside li{
+		margin: 0em; 
+		padding: 0em;
+	}
+	
+	#aside h1{
+		text-align: center;
+	}
+	
+	#campus {
+		display: block;
+		line-height: 1.5em;
+	}
+	
+	footer{
+		background-color: #9d8a62;
+		clear:both;
+		text-align: center;
+		padding:20px;
+		margin-top:20px;
+	}
 }
