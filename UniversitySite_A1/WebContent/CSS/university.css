@@ -3,7 +3,6 @@
 body {
 	background-color: #b5a789;
 	font-family: Georgia, "Times New Roman", Times, serif;
-	font-size: medium;
 	margin: 50px;
 }
 
@@ -21,26 +20,27 @@ header h1 {
 	float: right;
 }
 
-aside {
+#aside {
+	display:block;
 	font-size: small;
 	float: left;
 	background-color: #d8d0c0;
 	width:20%;
 	padding:10px;
 	margin: 20px 20px 20px 0px;
-	clear: left;
 }
 
-aside li{
+#aside li{
 	margin: 0em; 
 	padding: 0em;
 }
 
-aside h1{
+#aside h1{
 	text-align: center;
 }
 
-section {
+#campus {
+	display: block;
 	line-height: 1.5em;
 }
 
