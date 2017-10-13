@@ -1,58 +1,53 @@
 @charset "UTF-8";
 
-body{
-	font-family: Geneva, Arial, sans-serif;
-	background-color:lightgrey;
-	margin: 40px;
+body {
+	background-color: #b5a789;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: medium;
+	margin: 50px;
+}
+
+header {
+	background-color: #9d8a62;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+header h1 {
+	text-align: center;
+}
+
+#contact {
+	float: right;
+}
+
+aside {
+	font-size: small;
+	float: left;
+	background-color: #d8d0c0;
+	width:20%;
+	padding:10px;
+	margin: 20px 20px 20px 0px;
+	clear: left;
+}
+
+aside li{
+	margin: 0em; 
+	padding: 0em;
+}
+
+aside h1{
+	text-align: center;
+}
+
+section {
 	line-height: 1.5em;
 }
 
 footer{
-	font-size:small;
+	background-color: #9d8a62;
+	clear:both;
 	text-align: center;
-}
-
-#campusSelect {
-	float: right;
-	margin: 30px;
-	border-style: solid;
-	padding: 20px;
-}
-
-.campus {
-	border-style: ridge;
-	text-align: center;
-	padding-top: 5px;
-}
-
-#title {
-	background-color: darkgrey;
-	margin-bottom: 100px;
-}
-
-#title img {
-	float: left;
-	padding-right: 100px;
-}
-
-#title h1 {
-	font-family: Verdana, Geneva, Arial, sans-serif;
-	position: relative;
-	padding: 54px;
-}
-
-#content {
-	margin: 50px;
-}
-
-#about blockquote{
-	background-color: silver;
-	padding: 10px;
-	overflow: hidden;
-	line-height: 2em;
-}
-
-.university {
-		font-style: italic;
-		font-weight: bold;
+	padding:20px;
+	margin-top:20px;
 }

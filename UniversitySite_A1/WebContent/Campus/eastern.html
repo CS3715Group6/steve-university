@@ -4,20 +4,19 @@
 		<meta charset="utf-8">
 		<link type="text/css" rel="stylesheet" href="../CSS/university.css">
 		<link type="text/css" rel="stylesheet" href="../CSS/campus.css">
-		<link type="text/css" rel="stylesheet" href="../CSS/eastern.css">
 		<title>Eastern Campus Of Steve University</title>
 	</head>
 
 <body>
-	<div id="header">
-		<img src="./Images/cr.JPG" alt="St. John's">
+	<header>
+		<img src="../Images/eastern_campus_thumbnail.jpg" alt="St. John's">
 		<h1>Steve University - Eastern Campus</h1>
-	</div>
+	</header>
 		
-	<div id="catalogue">
+	<section id="catalogue">
 		<h2>Course Catalog</h2>
 			
-		<table id="courses" border="1">
+		<table id="courses">
 			<tr>
 				<th>Course Name</th>
 				<th>Course Number</th>
@@ -205,14 +204,14 @@
 				<td>GB - 109</td>
 				<td>008</td>
 			</tr>									
-			</table>
-	</div>
+		</table>
+	</section>
 		
-	<div id="register">
-	<h2>Register for a course</h2>
+	<section id="register">
+		<h2>Register for a course</h2>
 		<form action="easterncampus.html" method="post">
 			<fieldset>
-				<legend>Course Registration></legend>
+				<legend>Course Registration</legend>
 				<br>
 				Select Course:
 				<select id="courseNumber">
@@ -260,11 +259,20 @@
 					<option value="sectionNum">Section 008</option>
 					<option value="sectionNum">Section 009</option>
 				</select>
-			<br>
+				<br>
 				<input type="submit" value="Submit">
-			<br>
-				</fieldset>
-			</form>
-		</div>
-	</body>
+				<br>
+			</fieldset>
+		</form>
+	</section>
+	
+	<footer>
+		<p>
+			Go back to the Steve University 
+			<a href="./index.html"
+			title="Return to Index page">Home</a> page.
+		</p>
+		<p> Copyright 2017 Steve University of Newfoundland</p>
+	</footer>
+</body>
 </html>
