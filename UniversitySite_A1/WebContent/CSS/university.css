@@ -220,6 +220,19 @@ I've added this to keep the look consistent across mobile whether in portrait or
 		line-height: 1.5em;
 	}
 	
+	#northern {
+		float: right;
+		margin:5px;
+	}
+	#southern{
+		float :left;
+		margin:5px;
+	}
+	#eastern {
+		float: right;
+		margin:5px;
+	}
+	
 	footer{
 		background-color: #9d8a62;
 		clear:both;
