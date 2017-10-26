@@ -4,6 +4,9 @@
 		<meta charset="utf-8">
 		<link type="text/css" rel="stylesheet" href="../CSS/university.css">
 		<link type="text/css" rel="stylesheet" href="../CSS/campus.css">
+		<script src="../JS/campusInit.js"></script>
+		<script src="../JS/registration.js"></script>
+		<script src="../JS/courseDisplay.js"></script>
 		<title>Northern Campus Of Steve University</title>
 	</head>
 
@@ -100,13 +103,7 @@
 				<td>STAT 2500</td>
 				<td>C 2033</td>
 				<td>001</td>
-			</tr>		
-			<tr>
-				<td>Stats/Busi&amp;Art Students I</td>
-				<td>STAT 2500</td>
-				<td>C 2033</td>
-				<td>001</td>
-			</tr>			
+			</tr>					
 			<tr>
 				<td>Stats/Busi&amp;Art Students I</td>
 				<td>STAT 2500</td>
@@ -280,7 +277,7 @@
 		
 	<section id="register">
 		<h2>Register for a course</h2>
-		<form action="../registered.html" method="post">
+		<form action="../registered.html" method="post" id="registerForm">
 			<fieldset>
 				<legend>Course Registration</legend>
 				<br>
@@ -332,7 +329,7 @@
 				</select>
 				<br>
 				<br>
-				<input type="submit" value="Register">
+				<input type="button" value="Register" id="registerBtn">
 				<br>
 			</fieldset>
 		</form>
