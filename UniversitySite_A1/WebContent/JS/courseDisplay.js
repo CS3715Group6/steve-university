@@ -8,20 +8,40 @@
  */
 
 function createCatalogueTable(){
-	var catalogue = document.getElementById("courses");
+	var catalogueTbl = document.getElementById("courses");
 	var catalogueKeys = getCatalogueArray();
-	var allCourseEntries = [];
+	var allCourseEntries = getSortedCatalogueEntries(catalogueKeys);
 	
-	for(i = 0; i < catalogueKeys.length; i++){
-		var currKey = catalogueKeys[i];
-		var courseEntry = JSON.parse(localStorage[currKey]);
-		allCourseEntries.push(courseEntry);
+	while(catalogueTbl.hasChildNodes()){
+		catalogueTbl.removeChild(catalogueTbl.lastChild);
 	}
-	
-	allCourseEntries.sort(compare); //Sorts alphabetically
-	
-	//Use .replaceOldElement instead
-	//catalogue.innerHtml = ""; //Remove previous table entries
+
+	//Create Table Headers
+	var tblHeaderTxt = ["Course Name", "Course Number", "Room Number", "Time Slot"];
+	var headerRow = document.createElement("tr");
+	for(var x = 0; x < tblHeaderTxt.length; x++){
+		
+		var headerth = document.createElement('th');
+		var textNode = document.createTextNode(tblHeaderTxt[x]);
+		headerth.appendChild(textNode);
+		headerRow.appendChild(headerth);
+	}
+	catalogueTbl.appendChild(headerRow);
+
+	//Add Course Entries to the table
+	for(var i = 0; i < allCourseEntries.length; i++){
+		var courseRow = document.createElement("tr");
+		var entry = allCourseEntries[i];
+		var entryData = Object.values(entry);
+		
+		for(var j = 0; j < 4; j++){
+			var course_td = document.createElement('td');
+			var txtNode = document.createTextNode(entryData[j]);
+			course_td.appendChild(txtNode);
+			courseRow.appendChild(course_td);
+		}
+		catalogueTbl.appendChild(courseRow);
+	}
 }
 
 //Alphabetical sorting function
@@ -84,6 +104,19 @@ function getCatalogueArray(){
 		catalogueArray = JSON.parse(catalogueArray);
 	}
 	return catalogueArray;
+}
+
+function getSortedCatalogueEntries(catalogueKeys){
+	
+	var allCourseEntries = [];
+	for(i = 0; i < catalogueKeys.length; i++){
+		var currKey = catalogueKeys[i];
+		var courseEntry = JSON.parse(localStorage[currKey]);
+		allCourseEntries.push(courseEntry);
+	}
+	
+	allCourseEntries.sort(compare); //Sorts alphabetically
+	return allCourseEntries;
 }
 
 //Add to the array of catalogue keys for which the student has registered. 
