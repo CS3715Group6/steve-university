@@ -17,6 +17,16 @@
 			<h1>Welcome to Steve University</h1>
 		</header>
 		
+		<div class="navigation" id = "navbar">
+			  <a href = "index.html">Steve University</a>
+			  <a href = "./Campus/eastern.html">Eastern Campus</a>
+			  <a href = "./Campus/northern.html">Northern Campus</a>
+			  <a href = "./Campus/southern.html">Southern Campus</a>
+			  <a href = "student.html">Student</a>
+			  <a href = "previouscourses.html">Previous Courses</a>
+		</div>
+		
+		
 		<div id="aside">
 			<h1>Events</h1>
 			<h3>Monday</h3>
@@ -49,6 +59,16 @@
 				<li><h4>On Campus Employment Opporutnities</h4>Some interesting opportunities and ways to earn extra cash</li>
 				<li><h4>Easy Listening</h4>Enjoy some local music in the cheers cafe and lounge
 			</ul>
+			<form>
+                <fieldset>
+                     <legend>Add Events</legend>
+                     <input type = "text" id = "eventday" size = "40" placeholder= "Day of week">
+                     <input type = "text" id = "eventtitle" size = "40" placeholder = "Event Title">
+                     <input type = "text" id = "eventdescription" size = "40" placeholder = "Event Description">
+                     <button onclick = "updateEvents()"> Update Events</button>
+                </fieldset>
+			</form>
+			
 		</div>
 		
 		<div id="campus">
@@ -67,11 +87,20 @@
 				Students can choose majors in business, 
 				education, nursing, computer science, information technology, criminal justice, 
 				social work, environmental science, urban studies and 
-				interdisciplinary arts and sciences.<br>
+				interdisciplinary arts and sciences.<br><br>
+				
+				
 				<a href="./Campus/northern.html"
 				title="Go to the Northern Campus webpage">Visit the Northern Campus</a>.
 				<br/><br/><br/><br/>
 			</p>
+			<form>
+                <fieldset>
+                	<legend>Update Description</legend>
+                           <input type = "text" id = "NCnewdescription" size = "40" placeholder = "New Description">
+                           <button onclick = "updateDescriptionNc()">Update Description Northern Campus</button>
+                </fieldset>
+			</form>
 			
 			<p id="southern">
 				<a href="./Images/southern1.jpg"
@@ -92,6 +121,13 @@
 				title="Go to the Southern Campus webpage">Visit the Southern Campus</a>.
 				<br/><br/><br/><br/>
 			</p>
+			<form>
+                <fieldset>
+                	<legend>Update Description</legend>
+                           <input type = "text" id = "SCnewdescription" size = "40" placeholder = "New Description">
+                           <button onclick = "updateDescriptionSc()">Update Description Southern Campus</button>
+                </fieldset>
+			</form>
 			
 			<p id="eastern">
 				<a href="./Images/eastern_campus.jpg"
@@ -111,8 +147,15 @@
 				are located on SUEC.<br>
 				<a href="./Campus/eastern.html"
 				title="Go to the Eastern Campus webpage">Visit the Eastern Campus</a>.
-				<br/><br/><br/>
-			</p>			
+				<br/></br><br/><br/>
+			</p>
+			<form>
+                <fieldset>
+                	<legend>Update Description</legend>
+                           <input type = "text" id = "ECnewdescription" size = "40" placeholder = "New Description">
+                           <button onclick = "updateDescriptionEc()">Update Description Eastern Campus</button>
+                </fieldset>
+			</form>			
 		</div>
 		
 		<footer>
