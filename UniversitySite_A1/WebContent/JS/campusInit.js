@@ -14,4 +14,5 @@ function init(){
 	createCatalogueTable(); //courseDisplay.js
 	var registerBtn = document.getElementById("registerBtn");
 	registerBtn.onclick = registerBtnClicked; //registration.js
+	
 }
