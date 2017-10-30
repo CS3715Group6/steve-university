@@ -13,6 +13,7 @@ function createCatalogueTable()
 	var catalogueKeys = getCatalogueArray();
 	var allCourseEntries = getSortedCatalogueEntries(catalogueKeys);
 	
+	//Destory Previous Table rows
 	while(catalogueTbl.hasChildNodes()){
 		catalogueTbl.removeChild(catalogueTbl.lastChild);
 	}
@@ -145,8 +146,22 @@ function catalogueEntry(courseName, courseNum, roomNum, timeSlot){
 	this.slot = timeSlot;
 }
 
+//Triggers when the catalogue button is hit
+function addToCatalogue(){
+	var entry = createEntryFromTextbox();
+}
 
-
+//Creates a new course entry from the textbox's in the add to catalogue form
+function createEntryFromTextbox(){
+	
+	var cName = document.getElementById("cName").value;
+	var cNum = document.getElementById("cNum").value;
+	var cRoom = document.getElementById("cRoom").value;
+	var cSlot = document.getElementById("cSlot").value;
+	
+	var courseEntry = new catalogueEntry(cName, cNum, cRoom, cSlot);
+	return courseEntry;
+}
 
 
 
