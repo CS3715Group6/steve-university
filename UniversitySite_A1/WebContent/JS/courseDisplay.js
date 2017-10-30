@@ -241,9 +241,11 @@ function removeFromCatalogue(){
 	if(catalogueArray.includes(entryKey)) {
 		
 		//Save removed Courses
-		removedCArray.push(entryKey);
-		localStorage.setItem("removedCourses", JSON.stringify(removedCArray))
-
+		if(!removedCArray.includes(entryKey)){
+			removedCArray.push(entryKey);
+			localStorage.setItem("removedCourses", JSON.stringify(removedCArray))
+		}
+		
 		catalogueArray = catalogueArray.filter(function(e) { return e !== entryKey });
 		localStorage.setItem("catalogueArray", JSON.stringify(catalogueArray));
 		
