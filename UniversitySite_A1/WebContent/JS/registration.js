@@ -17,6 +17,8 @@ function registerBtnClicked(){
 	var courseInfo = new course(courseNum,sectionNum);
 	
 	saveCourseInfo(courseInfo);
+	
+	alert("You have registered for " + courseNum);
 }
 
 function saveCourseInfo(course){
@@ -28,12 +30,12 @@ function saveCourseInfo(course){
 		localStorage.setItem(key, value);
 		
 		//TESTING
-		var courseArray = getCourseArray();
-		for(i = 0; i < courseArray.length; i++){
-			var currKey = courseArray[i];
-			var courseInfo = JSON.parse(localStorage[currKey]);
-			alert(courseInfo.courseNum + " " + courseInfo.sectionNum);
-		}
+//		var courseArray = getCourseArray();
+//		for(i = 0; i < courseArray.length; i++){
+//			var currKey = courseArray[i];
+//			var courseInfo = JSON.parse(localStorage[currKey]);
+//			alert(courseInfo.courseNum + " " + courseInfo.sectionNum);
+//		}
 	}
 }
 
