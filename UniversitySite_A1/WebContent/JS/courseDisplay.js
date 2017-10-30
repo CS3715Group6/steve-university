@@ -7,7 +7,8 @@
  * @author Alex Gillis 
  */
 
-function createCatalogueTable(){
+function createCatalogueTable()
+{
 	var catalogueTbl = document.getElementById("courses");
 	var catalogueKeys = getCatalogueArray();
 	var allCourseEntries = getSortedCatalogueEntries(catalogueKeys);
