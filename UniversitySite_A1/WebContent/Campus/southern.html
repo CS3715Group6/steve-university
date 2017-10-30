@@ -15,7 +15,15 @@
 		<img src="../Images/southern_campus_thumbnail.jpg" alt="St. John's">
 		<h1>Southern Campus</h1>
 	</header>
-		
+	
+			<div class="navigation" id = "navbar">
+				  <a href = "../index.html">Steve University</a>
+				  <a href = "eastern.html">Eastern Campus</a>
+				  <a href = "northern.html">Northern Campus</a>
+				  <a href = "southern.html">Southern Campus</a>
+				  <a href = "student.html">Student</a>
+				  <a href = "previouscourses.html">Previous Courses</a>
+			</div>
 	<section id="catalogue">
 		<h2>Course Catalog</h2>
 			
@@ -264,7 +272,19 @@
 			</fieldset>
 		</form>
 	</section>
-		
+		<br>
+		<form>
+             <fieldset>
+             	<br>
+                <legend>Catalog Add/Remove</legend>
+                <input type = "text" id = "coursename" size = "40" placeholder = "Course Name">
+                <input type = "text" id = "coursenumber" size = "40" placeholder = "Course Number">
+                <input type = "text" id = "room" size = "40" placeholder = "Room">
+                <input type = "text" id = "slot" size = "40" placeholder = "Slot">
+                <button onclick = "addCourse()"> Add Course</button>
+                <button onclick = "removeCourse()"> Remove Course</button>
+             </fieldset>
+	</form>
 	<section id="register">
 		<h2>Register for a course</h2>
 		<form action="../registered.html" method="post">
