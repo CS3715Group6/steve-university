@@ -12,6 +12,7 @@ function createCatalogueTable(){
 	var catalogueKeys = getCatalogueArray();
 	var allCourseEntries = getSortedCatalogueEntries(catalogueKeys);
 	
+	//Destory Previous Table rows
 	while(catalogueTbl.hasChildNodes()){
 		catalogueTbl.removeChild(catalogueTbl.lastChild);
 	}
