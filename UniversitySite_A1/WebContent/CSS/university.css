@@ -67,12 +67,12 @@
    		height: 100%;
 	 }
 	
-	.navigation {
+	nav {
 	    background-color: grey;
 	    overflow: hidden;
 	}
 
-	.navigation a {
+	nav a {
 	    float: left;
 	    display: block;
 	    color: black;
@@ -83,13 +83,13 @@
 	}
 
 
-	.navigation a:hover {
+	nav a:hover {
 	    background-color: #ddd;
 	    color: black;
 	}
 
 
-	.navigation a.active {
+	nav a.active {
 	    background-color: #4CAF50;
 	    color: block;
 	}
@@ -164,12 +164,12 @@ I've added this to keep the look consistent across mobile whether in portrait or
    		height: 100%;
  	}
 
-	.navigation {
+	nav {
 	    background-color: grey;
 	    overflow: hidden;
 	}
 
-	.navigation a {
+	nav a {
 	    float: left;
 	    display: block;
 	    color: black;
@@ -179,13 +179,13 @@ I've added this to keep the look consistent across mobile whether in portrait or
 	    font-size: 17px;
 	}
 
-	.navigation a:hover {
+	nav a:hover {
 	    background-color: #ddd;
 	    color: black;
 	}
 
 
-	.navigation a.active {
+	nav a.active {
 	    background-color: #4CAF50;
 	    color: block;
 	}
@@ -254,12 +254,12 @@ I've added this to keep the look consistent across mobile whether in portrait or
 	   	width: 100%;
    		height: 100%;
  	}
-	 .navigation {
+	 nav {
 	    background-color: #b3b3ff;
 	    overflow: hidden;
 	}
 
-	.navigation a {
+	nav a {
 	    float: left;
 	    display: block;
 	    color: black;
@@ -269,12 +269,12 @@ I've added this to keep the look consistent across mobile whether in portrait or
 	    font-size: 17px;
 	}
 
-	.navigation a:hover {
+	nav a:hover {
 	    background-color: #ddd;
 	    color: black;
 	}
 
-	.navigation a.active {
+	nav a.active {
 	    background-color: #4CAF50;
 	    color: block;
 	}
@@ -357,12 +357,12 @@ I've added this to keep the look consistent across mobile whether in portrait or
    		height: 100%;
 	 }
  	
-	.navigation {
+	nav {
 	    background-color: #9d8a62;
 	    overflow: hidden;
 	}
 
-	.navigation a {
+	nav a {
 	    float: left;
 	    display: block;
 	    color: black;
@@ -372,12 +372,12 @@ I've added this to keep the look consistent across mobile whether in portrait or
 	    font-size: 17px;
 	}
 
-	.navigation a:hover {
+	nav a:hover {
 	    background-color: #ddd;
 	    color: black;
 	}
 
-	.navigation a.active {
+	nav a.active {
 	    background-color: #4CAF50;
 	    color: block;
 	}
